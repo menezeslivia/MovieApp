@@ -1,0 +1,51 @@
+# Expo
+.expo/
+.expo-shared/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Android
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+
+# iOS
+ios/Pods/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.ipa
+Podfile.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.log
+.cache/
