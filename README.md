@@ -2,7 +2,7 @@
 
 # 🎬 MovieApp
 
-### Descubra, Favorite e Sorteie Shows de TV
+### Descubra, Favorite e Sorteie Filmes e Séries
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.81.4-61dafb?style=for-the-badge&logo=react&logoColor=white)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-SDK%2054-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
@@ -10,7 +10,7 @@
 
 ---
 
-**Aplicação mobile multiplataforma para exploração e gerenciamento de séries e shows de TV**
+**Aplicação mobile multiplataforma para exploração e gerenciamento de filmes e séries**
 
 [Funcionalidades](#-funcionalidades) •
 [Instalação](#-instalação) •
@@ -23,7 +23,7 @@
 
 ## 📖 Sobre o Projeto
 
-O **MovieApp** é uma aplicação React Native desenvolvida com Expo que oferece uma experiência completa de descoberta e organização de séries e shows de TV. Integrado com a API gratuita do TVMaze, o app permite explorar um vasto catálogo de conteúdo audiovisual sem necessidade de autenticação ou limites de uso.
+O **MovieApp** é uma aplicação React Native desenvolvida com Expo que oferece uma experiência completa de descoberta e organização de séries e filmes. Integrado com a API gratuita do TVMaze, o app permite explorar um vasto catálogo de conteúdo audiovisual sem necessidade de autenticação ou limites de uso.
 
 ### 🎯 Objetivo
 
@@ -62,7 +62,7 @@ Proporcionar uma plataforma intuitiva e elegante para:
   - Busca manual por nome
   - Filtros automáticos (gênero + década)
 - **Lista Personalizada**: Monte sua própria lista de sorteio
-- **Gerenciamento Flexível**: Adicione e remova shows livremente
+- **Gerenciamento Flexível**: Adicione e remova séries e filmes livremente
 - **Prevenção de Duplicatas**: Sistema inteligente de validação
 
 ### 📱 Interface Responsiva
@@ -153,7 +153,7 @@ npm run web        # Abre no navegador
 MovieApp/
 ├── 📱 src/
 │   ├── 🧩 components/       # Componentes reutilizáveis
-│   │   ├── MovieCard.js     # Card de exibição de show
+│   │   ├── MovieCard.js     # Card de exibição de conteudo
 │   │   ├── SearchBar.js     # Barra de busca
 │   │   ├── FilterChip.js    # Chip de filtro
 │   │   ├── LoadingSpinner.js # Indicador de carregamento
@@ -161,8 +161,8 @@ MovieApp/
 │   │   └── EmptyState.js     # Estado vazio
 │   │
 │   ├── 📄 screens/          # Telas da aplicação
-│   │   ├── HomeScreen.js    # Lista de shows
-│   │   ├── DetailsScreen.js # Detalhes do show
+│   │   ├── HomeScreen.js    # Lista de conteudos
+│   │   ├── DetailsScreen.js # Detalhes do conteudo
 │   │   ├── FavoritesScreen.js # Lista de favoritos
 │   │   └── RandomScreen.js   # Sorteio aleatório
 │   │
@@ -468,7 +468,6 @@ Este projeto é de uso educacional.
 
 ### 🎬 Desenvolvido com ❤️ usando React Native + Expo
 
-**Divirta-se descobrindo novas séries!**
 
 [![Download Expo Go](https://img.shields.io/badge/Download-Expo%20Go-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/client)
 
