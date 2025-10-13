@@ -28,7 +28,7 @@ O **MovieApp** é uma aplicação React Native desenvolvida com Expo que oferece
 ### 🎯 Objetivo
 
 Proporcionar uma plataforma intuitiva e elegante para:
-- Descobrir novos shows baseados em preferências
+- Descobrir novos conteudos baseados em preferências
 - Organizar conteúdos favoritos
 - Explorar detalhes completos de séries
 - Sortear shows aleatoriamente para assistir
