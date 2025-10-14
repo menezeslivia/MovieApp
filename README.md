@@ -38,7 +38,7 @@ Proporcionar uma plataforma intuitiva e elegante para:
 ## ✨ Funcionalidades
 
 ### 🏠 Exploração de Conteúdo
-- **Catálogo Completo**: Navegue por shows populares e em alta
+- **Catálogo Completo**: Navegue por filmes e séries populares e em alta
 - **Paginação Infinita**: Carregamento automático de mais conteúdo
 - **Pull to Refresh**: Atualize os dados com um gesto
 
