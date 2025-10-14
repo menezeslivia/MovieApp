@@ -31,7 +31,7 @@ Proporcionar uma plataforma intuitiva e elegante para:
 - Descobrir novos conteudos baseados em preferências
 - Organizar conteúdos favoritos
 - Explorar detalhes completos de séries
-- Sortear shows aleatoriamente para assistir
+- Sortear filmes e séries aleatoriamente para assistir
 
 ---
 
@@ -43,7 +43,7 @@ Proporcionar uma plataforma intuitiva e elegante para:
 - **Pull to Refresh**: Atualize os dados com um gesto
 
 ### 🔍 Sistema de Busca
-- **Busca em Tempo Real**: Encontre shows enquanto digita
+- **Busca em Tempo Real**: Encontre filmes e séries enquanto digita
 - **Debounce Inteligente**: Otimização de requisições à API
 - **Resultados Instantâneos**: Feedback visual imediato
 
@@ -247,9 +247,9 @@ MovieApp/
 
 | Endpoint | Descrição | Exemplo |
 |----------|-----------|---------|
-| `/shows` | Lista todos os shows | `GET /shows` |
+| `/shows` | Lista todos os filmes | `GET /shows` |
 | `/search/shows` | Busca por nome | `GET /search/shows?q=breaking` |
-| `/shows/:id` | Detalhes do show | `GET /shows/169` |
+| `/shows/:id` | Detalhes do filme | `GET /shows/169` |
 
 ### Estrutura de Resposta
 
@@ -334,7 +334,7 @@ MainStack
 
 | Tab | Ícone | Função |
 |-----|-------|--------|
-| Home | 🏠 | Explorar shows |
+| Home | 🏠 | Explorar filmes e séries |
 | Sortear | 🎲 | Sortear aleatoriamente |
 | Favoritos | ⭐ | Gerenciar favoritos |
 
@@ -345,7 +345,7 @@ MainStack
 ### 1. Tela Home
 
 **Recursos**:
-- Lista de shows populares
+- Lista de filmes populares
 - Alternância para "Em Alta"
 - Paginação infinita (scroll)
 - Pull-to-refresh
@@ -395,10 +395,10 @@ MainStack
 **Modos de Uso**:
 
 **A) Busca Manual**:
-1. Digite nome do show
+1. Digite nome do filme/série
 2. Veja resultados (até 20)
 3. Adicione à lista com botão `+`
-4. Repita para múltiplos shows
+4. Repita para múltiplos filmes/séries
 
 **B) Filtros Automáticos**:
 1. Selecione gênero
@@ -408,25 +408,15 @@ MainStack
 
 **Gerenciamento**:
 - Visualizar lista completa
-- Remover shows individuais
+- Remover filme/série individuais
 - Limpar lista inteira
-- Contador de shows
+- Contador de filmes/séries
 
 **Sorteio**:
 - Botão flutuante sempre visível
 - Modal animado com resultado
 - Opção de sortear novamente
 - Navegação para detalhes
-
----
-
-## 📚 Documentação Adicional
-
-| Documento | Descrição |
-|-----------|-----------|
-| `DOCUMENTACAO_TECNICA.md` | Documentação técnica completa |
-| `GUIA_APRESENTACAO.md` | Guia para apresentação do projeto |
-| `ATUALIZACAO_SORTEIO.md` | Detalhes da funcionalidade de sorteio |
 
 ---
 
@@ -450,8 +440,10 @@ Este projeto é de uso educacional.
 
 ## 👥 Autores
 
-**Lívia Menezes**
-- GitHub: [@menezeslivia](https://github.com/menezeslivia)
+**Clara Heloísa Pereira dos Santos - 01710826**
+**Fernanda Gabrielli de Oliveira Guimarães - 01710910**
+**Lívia Janine Menezes Cabral da Silva - 01712089**
+**Maria Fernanda Trevizane Buonafina - 01711101**
 
 ---
 
