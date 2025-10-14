@@ -403,7 +403,7 @@ MainStack
 **B) Filtros Automáticos**:
 1. Selecione gênero
 2. Selecione década
-3. Adicione até 10 shows automaticamente
+3. Adicione até 10 filmes automaticamente
 4. Sistema filtra por avaliação > 5
 
 **Gerenciamento**:
