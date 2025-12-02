@@ -15,7 +15,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+<<<<<<< HEAD
     backgroundColor: 'transparent',
+=======
+    backgroundColor: '#1a1a2e',
+>>>>>>> 674fe7a39a84c7a13d5a3b5caf62d55041eab313
   },
   message: {
     marginTop: 16,
