@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MovieApp",
+    "slug": "movieapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.movieapp.app"
+    },
+    "android": {
+      "backgroundColor": "#1a1a2e",
+      "package": "com.movieapp.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": []
+  }
+}
